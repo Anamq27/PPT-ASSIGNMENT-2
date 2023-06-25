@@ -1,0 +1,10 @@
+public  static class solution{
+   piblic int arrayPairsum(int[]nums){
+   Array.sort(nums);
+   Int total=0;
+    for (int i=0; i<nums.length;i+=2){
+     total+= nums [i];
+      }
+    return total;
+   }
+}
